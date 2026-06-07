@@ -2,6 +2,7 @@
 
 #include <cstddef>
 #include <vector>
+#include <cstdint>
 
 #include "util/assert.hpp"
 #include "util/iterator_range.hpp"
