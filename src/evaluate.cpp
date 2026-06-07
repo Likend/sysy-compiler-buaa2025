@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <optional>
+#include <algorithm>
 
 #include "ir/BasicBlock.hpp"
 #include "ir/Function.hpp"
