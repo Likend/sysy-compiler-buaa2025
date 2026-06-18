@@ -1,8 +1,8 @@
 #pragma once
 
 #include <cstddef>
-#include <vector>
 #include <cstdint>
+#include <vector>
 
 #include "util/assert.hpp"
 #include "util/iterator_range.hpp"

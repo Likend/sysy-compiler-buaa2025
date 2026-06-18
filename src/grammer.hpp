@@ -7,7 +7,6 @@
 #include <string_view>
 #include <utility>
 #include <variant>
-#include <cstdint>
 
 #include "lexer.hpp"
 #include "token.hpp"

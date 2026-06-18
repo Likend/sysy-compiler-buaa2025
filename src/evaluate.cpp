@@ -1,8 +1,8 @@
 #include "evaluate.hpp"
 
+#include <algorithm>
 #include <memory>
 #include <optional>
-#include <algorithm>
 
 #include "ir/BasicBlock.hpp"
 #include "ir/Function.hpp"
@@ -139,7 +139,7 @@ ir::Value* BinaryOpIntExp::rvalue(ir::IRBuilder& builder) {
             auto* v = builder.CreateICmpNE(l, r, "ne");
             return builder.CreateZExt(v, builder.getInt32Ty(), "ext");
         }
-        DEFAULT_UNREACHABLE();
+            DEFAULT_UNREACHABLE();
     }
 }
 
