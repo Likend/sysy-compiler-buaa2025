@@ -1,5 +1,6 @@
 #include "evaluate.hpp"
 
+#include <algorithm>
 #include <memory>
 #include <optional>
 

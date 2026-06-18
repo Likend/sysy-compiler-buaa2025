@@ -81,11 +81,9 @@ class Token {
 
 // constexpr Token TokNone = {};
 
-#ifdef DEBUG_TOKEN_TYPE_NAME
 [[nodiscard]] std::string_view token_type_name(Token::Type type);
 
 std::ostream& operator<<(std::ostream& os, Token::Type type);
-#endif
 
 extern const std::unordered_map<std::string_view, Token::Type>
     RESERVED_KEYWORDS_MAP;

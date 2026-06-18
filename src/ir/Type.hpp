@@ -3,6 +3,7 @@
 #include <cstddef>
 #include <ostream>
 #include <vector>
+#include <cstdint>
 
 #include "util/assert.hpp"
 #include "util/iterator_range.hpp"

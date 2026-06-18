@@ -203,11 +203,10 @@ struct ASTNode {
     iterator end() { return children.end(); }
 };
 
-#ifdef DEBUG_TOKEN_TYPE_NAME
 [[nodiscard]] std::string_view astnode_type_name(ASTNode::Type type);
 
 std::ostream& operator<<(std::ostream& os, ASTNode::Type type);
-#endif
+
 std::ostream& operator<<(std::ostream& os, const ASTNode& node);
 
 std::optional<ASTNode::Map> parse_grammer(Lexer::iterator& it);
